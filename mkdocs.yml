@@ -15,6 +15,7 @@ nav:
       - Initial ideas: project/project.md
   - Reflections :
       - Term 1:
+          - Landing: term1/landing/gitclass.md 
           - Bootcamp: term1/01-Bootcamp.md
           - AoWS: term1/02-Atlas of Weak Signals.md
 
@@ -43,7 +44,7 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: blue
+    primary: green
     accent: purple
   font:
     # See available fonts at https://fonts.google.com/
