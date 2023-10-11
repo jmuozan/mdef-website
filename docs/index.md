@@ -1,5 +1,5 @@
 ## Welcome
 
-![](../images/perezoso.jpg)
+![](../images/Captura.png)
 
 "Hi, I'm Jorge Muñoz"
