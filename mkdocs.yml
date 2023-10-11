@@ -3,7 +3,7 @@ site_name: Jorge Muñoz Zanón - MDEF & Fab Lab Barcelona
 site_description: Master in Design for Emergent Futures
 site_author: Jorge Muñoz Zanón
 copyright: Copyleft 2023 "Jorge Muñoz Zanón" - GNU Free Documentation License
-repo_name: 'Name : Github Repo'
+repo_name: 'Name : Jorge's Website '
 site_url: https://fablabbcn.github.io/mdef-template/
 repo_url: 'https://github.com/fablabbcn/mdef-template'
 
@@ -36,7 +36,7 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/
     - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/"
+      link: "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
     - icon: fontawesome/brands/github
       link: "https://github.com/"
 
