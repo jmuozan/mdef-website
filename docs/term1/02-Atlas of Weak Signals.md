@@ -65,7 +65,9 @@ courses to study and implement digital fabrication so artisans can easily reach 
 be able to change the approach to consumption.
 
 
-### **My own board**
+### **Initial board**
+
+![GIF AoWS](../images/AoWS/INITIAL_BOARD.png)
 
 
 ### **My Multiscalar Personal Design Space**

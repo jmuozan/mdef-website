@@ -43,3 +43,5 @@ In this method, the prototype is created in order to help an investigation that 
 ### **Marius’ prototype**
 
 During class, we’ve tried to create a prototype for a friend’s inquiry. In my case, I tried to prototype Marius’ project. The project consisted of a series of sensors used on an interior garden module. These sensors were programmed to water and illuminate the plants in order to make them grow without help. For the prototyping phase, I decided to approach it using the second role of prototyping as a means of inquiry. By using cardboard, I decided to create the structure of the "garden,” and with marbles and plasteline I recreated the seeds and the plants growing. On one of the sides, with cardboard and popsicles, I created the sensors. This conceptual prototype can be used to study where the sensors are better positioned to help the plants grow. By changing the position of the sensors and studying the data of the plant’s growth, researchers can know what parameters and what position are better. 
+
+![GIF Marius](../images/Design_Studio/Marius'Prototype.gif)
