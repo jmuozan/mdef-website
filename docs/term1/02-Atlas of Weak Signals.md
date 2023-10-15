@@ -25,7 +25,7 @@ To properly understand how to find weak signals, we played the card game Boy Gro
 
 ## My own Atlas of Weak Signals
 
-## **First phase, Weak Signals**
+### **First phase, Weak Signals**
 
 _Pull out two WS cards //Redesigning Social Media \ Carbon Neutral Lifestyle//_
 
@@ -36,7 +36,7 @@ the “power” that we all possess while being united, we can make big corporat
 environmental approaches and offer more sustainable products.
 
 
-## **Second phase, Areas of Opportunity**
+### **Second phase, Areas of Opportunity**
 
 _Pull out two AoO cards //Digital Fabrication \ Circular Economy//_
 
@@ -49,7 +49,7 @@ circular economy. Also, social media can be used to share open-source models of 
 other things that people might need to manufacture locally.
 
 
-## **Third phase, Random Trigger**
+### **Third phase, Random Trigger**
 
 _Pull out two RT cards //Neighbourhood Fab Labs \ Plastic Digestion//_
 
@@ -63,3 +63,16 @@ to the Fab Labs close to them, the manufacturing process of their products will 
 reduced. Adding to this an intense social media campaign promoting buying local as well as
 courses to study and implement digital fabrication so artisans can easily reach them, we might
 be able to change the approach to consumption.
+
+
+### **My own board**
+
+
+### **My Multiscalar Personal Design Space**
+
+![GIF AoWS](../images/AoWS/MULTISACLAR%20PERSONAL%20DESIGN%20SPACE.png)
+
+
+### **My Design Space**
+
+![GIF AoWS](../images/AoWS/DESIGN%20SPACE.png)
