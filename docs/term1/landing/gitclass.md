@@ -1,9 +1,4 @@
-# Here is my documentation about git
+## **_Landing week_** 
 
-Remember to:
+**<sub> 2/10/2023 - 6/10/2023 <sub>**
 
-- git add
-- git commit -m "message"
-- git push
-
-You can use VSCode to do that!
