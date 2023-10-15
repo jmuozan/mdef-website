@@ -17,6 +17,7 @@ nav:
       - Term 1:
           - Landing: term1/landing/gitclass.md 
           - Bootcamp: term1/01-Bootcamp.md
+          - Design Studio: term1/03-Design Studio.md
           - AoWS: term1/02-Atlas of Weak Signals.md
 
       - Term 2:
