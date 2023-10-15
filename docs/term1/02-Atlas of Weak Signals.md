@@ -78,3 +78,14 @@ be able to change the approach to consumption.
 ### **My Design Space**
 
 ![GIF AoWS](../images/AoWS/DESIGN%20SPACE.png)
+
+
+## Card suggestions for AoWS
+
+**After the Nation-State** **_DISAPPEARING JOBS_**
+
+_Jobs absorbed by global capitalism in order to save costs._
+
+**Life after AI** **_The End of Work AI ART???_**
+
+_Question whether the artistic production of AIs is real art_
