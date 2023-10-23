@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: #012619;
+}
+table {
+    border-spacing: 10px; /* Establece el espaciado entre las celdas */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 80px;
+    text-align: center;
+}
+a:any-link{
+    color:#01401C;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color:#038C4C;
+}
+a:-moz-any-link {
+    color:#01401C;
+}
+li {
+    float:left;
+    margin-right: 30px;
+}
+ul {
+    margin-left: 30px;
+    margin-right: auto;
+}
+.titulo{
+    color: #04D976;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-weight:bolder;
+    font-size: 100px;
+    text-align:right;
+    padding-right: 10px;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.subtitulo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    color:white;
+    text-align:right;
+    padding-right: 10px;
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.tabla{
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+}
+#redessociales{
+    padding-top: 20px;
+    flex: 1;
+    text-align: right;
+    margin-left: 1200px;
+    list-style: none;
+    font-size: 28px;
+    color: #038C4C;
+}
+#redessociales:hover{
+    color: #038C4C;
+}
+.filaapartados{
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-weight:bolder;
+    font-size: 20px;
+    color: #01401C;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    width: 407px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url("../IMGS/PORTFOLIO/MCD_RenderFrida.png");
+}
+.card2{
+    background-image: url("../IMGS/ME_fotos/Me_working_NUDE.jpeg");
+}
+.card3{
+    background-image: url("../IMGS/ME_fotos/Me_workingFABLABBCN.png");
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.apartados{
+    margin-right: 200px;
+    margin-bottom: 1000px;
+    padding-bottom: 200px;
+    text-decoration: none;
+    mix-blend-mode:multiply;
+}
