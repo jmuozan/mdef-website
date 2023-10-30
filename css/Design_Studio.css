@@ -117,11 +117,10 @@ a:link, a:visited, a:active {
     padding-left: 20px;
 }
 h2{
-    color: #03A64A;
+    color: #04D976;
     font-family: system-ui, -apple-system, BlinkMacSystemFont;
     font-weight:bold;
-    font-size: 25px;
-    font-style: italic;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 .contenedor2{
