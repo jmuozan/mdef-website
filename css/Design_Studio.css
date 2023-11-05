@@ -119,7 +119,7 @@ a:link, a:visited, a:active {
 h2{
     color: #04D976;
     font-family: system-ui, -apple-system, BlinkMacSystemFont;
-    font-weight:bold;
+    font-weight:bolder;
     font-size: 20px;
     padding-bottom: 20px;
 }
