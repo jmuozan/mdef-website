@@ -163,3 +163,9 @@ a:link, a:visited, a:active {
     grid-row: 12/13;
     text-align: center;
 }
+.video{
+    text-align: center;
+}
+.texto9{
+    text-align: left;
+}
