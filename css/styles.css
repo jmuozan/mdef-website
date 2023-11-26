@@ -93,7 +93,7 @@ ul {
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url("../IMGS/PORTFOLIO/MCD_RenderFrida.png");
+    background-image: url("../IMGS/PORTFOLIO/Mycelium_wallpaper.png");
 }
 .card2{
     background-image: url("../IMGS/ME_fotos/Me_working_NUDE.jpeg");
@@ -110,5 +110,5 @@ ul {
     margin-bottom: 1000px;
     padding-bottom: 200px;
     text-decoration: none;
-    mix-blend-mode:multiply;
+
 }
