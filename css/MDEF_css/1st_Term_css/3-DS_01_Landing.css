@@ -19,7 +19,7 @@ a:link, a:visited, a:active {
 }
 .contenedor{
     display: grid;
-    grid-template-columns: 500px 1fr;
+    grid-template-columns: 420px 3fr;
     grid-template-rows: 6fr;
     grid-gap: 20px;
 }
@@ -48,6 +48,7 @@ a:link, a:visited, a:active {
     font-style: italic;
     font-size: 15px;
     padding-left: 20px;
+    padding-bottom: 20px;
 }
 .subtitulo{
     color: #04D976;
@@ -80,27 +81,43 @@ a:link, a:visited, a:active {
     grid-column: 1/2;
     grid-row: 1/2;
 }
-.texto2{
-    grid-column: 1/3;
-    grid-row: 2/3;
-    padding-top: 30px;
-    font-size: 22px;
-    text-align: center;
-    padding-left: 20px;
+.apartados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;     /* Center items vertically */
+    width: 100%;             /* Ensure the container takes full width */
 }
-.texto3{
-    grid-column: 1/3;
-    grid-row: 3/4;
-    padding-top: 30px;
-    font-size: 22px;
-    text-align: center;
-    padding-left: 20px;
+.apartados img {
+    height: 250px;           /* Adjust height as needed */
+    margin: 0 10px;          /* Provide some space between images */
+    /* Removed flex: 1 to allow natural image size */
 }
-.texto4{
-    grid-column: 1/3;
-    grid-row: 4/5;
-    padding-top: 30px;
-    font-size: 22px;
-    text-align: center;
-    padding-left: 20px;
-}
+.image-container {
+    position: relative;
+    display: inline-block; /* or flex, block, etc., depending on your layout */
+  }
+  
+  .hover-text {
+    position: absolute;
+    bottom: 10px;  /* Adjust the position as needed */
+    left: 10px;    /* Adjust the position as needed */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-weight:bolder;
+    color: #04D976;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px;
+    visibility: hidden; /* Hide by default */
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s; /* Smooth transition for the hover effect */
+  }
+  
+  .image-container:hover .hover-text {
+    visibility: visible; /* Show text on hover */
+    opacity: 1;
+  }
+  .image-container:hover{
+    transform: translateY(-10px);
+  }
+

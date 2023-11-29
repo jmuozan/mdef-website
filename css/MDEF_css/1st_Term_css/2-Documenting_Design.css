@@ -9,7 +9,7 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 .boton{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Helvetica;
     font-weight:bolder;
     font-size: 20px;
     text-align:left;
@@ -26,7 +26,7 @@ a:link, a:visited, a:active {
 .texto{
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Helvetica;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -34,7 +34,7 @@ a:link, a:visited, a:active {
 }
 #titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Helvetica;
     font-weight:bolder;
     text-align: right;
     font-size: 100px;
