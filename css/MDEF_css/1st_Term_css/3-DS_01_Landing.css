@@ -3,19 +3,24 @@
     padding: 0px;
 }
 body{
-    background-color: white;
+    background-color: #012619;
 }
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+@font-face{
+    font-family:  'HelveticaNeue' ;
+    src:url(../../../Fonts/HelveticaNeueCyr-Bold.ttf)
+} 
 .boton{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: HelveticaNeue;
     font-weight:bolder;
     font-size: 20px;
     text-align:left;
     color: #04D976;
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .contenedor{
     display: grid;
@@ -26,52 +31,54 @@ a:link, a:visited, a:active {
 .texto{
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: HelveticaNeue;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
     padding-left: 20px;
-}
+} 
 #titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: HelveticaNeue;
     font-weight:bolder;
     text-align: left;
     font-size: 100px;
     padding-left: 20px;
 }
 .fechas{
-    color: #01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    color: white;
+    font-family: HelveticaNeue;
     font-weight: 700;
     text-align: left;
     font-style: italic;
     font-size: 15px;
     padding-left: 20px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 .subtitulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: HelveticaNeue;
     font-weight:bolder;
     text-align: left;
     padding-bottom: 20px;
 }
 .subtituloprincipal{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: HelveticaNeue;
     font-weight:bolder;
     text-align: right;
     font-size: 25px;
     padding-bottom: 20px;
 }
 .boton2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: HelveticaNeue;
     font-weight:bold;
     font-size: 25px;
     text-align:right;
     color: #04D976;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 .textoprincipal{
     grid-column: 2/3;
@@ -103,7 +110,7 @@ a:link, a:visited, a:active {
     position: absolute;
     bottom: 10px;  /* Adjust the position as needed */
     left: 10px;    /* Adjust the position as needed */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: HelveticaNeue;
     font-weight:bolder;
     color: #04D976;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */

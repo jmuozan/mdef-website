@@ -2,6 +2,14 @@
     margin:0px;
     padding: 0px;
 }
+@font-face{
+    font-family:  'HelveticaNeue' ;
+    src:url(../../Fonts/HelveticaNeueCyr-Heavy.ttf)
+}
+@font-face{
+    font-family: "Emoji";
+    src:url(../../Fonts/AppleColorEmoji.ttf)
+}
 body{
     background-color: #012619;
 }
@@ -9,8 +17,8 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 .boton{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
-    font-weight:bolder;
+    font-family: HelveticaNeue;
+    font-weight:bold;
     font-size: 20px;
     text-align:left;
     color: #04D976;
@@ -19,7 +27,7 @@ a:link, a:visited, a:active {
 }
 .titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:bolder;
     font-size: 100px;
     text-align:right;
@@ -28,9 +36,12 @@ a:link, a:visited, a:active {
     padding-top: 30px;
 
 }
+.emoji{
+    font-family: emoji;
+}
 .parrafoinicio{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:500;
     font-size: 20px;
     text-align:right;
@@ -39,7 +50,7 @@ a:link, a:visited, a:active {
     padding-top: 30px;
 }
 nav{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:700;
     font-size: 40px;
     color: #04D976;
