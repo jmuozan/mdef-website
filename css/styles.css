@@ -26,6 +26,11 @@ a:-webkit-any-link {
 a:-moz-any-link {
     color:#01401C;
 }
+@font-face{
+    font-family:  'Helv' ;
+    src:url(../Fonts/HelveticaNeueCyr-Bold.ttf
+)
+} 
 li {
     float:left;
     margin-right: 30px;
@@ -36,7 +41,7 @@ ul {
 }
 .titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Helv;
     font-weight:bolder;
     font-size: 100px;
     text-align:right;
@@ -45,7 +50,7 @@ ul {
     padding-top: 30px;
 }
 .subtitulo{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Helv;
     color:white;
     text-align:right;
     padding-right: 10px;
@@ -71,7 +76,7 @@ ul {
 }
 .filaapartados{
     padding-top: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Helv;
     font-weight:bolder;
     font-size: 20px;
     color: #01401C;

@@ -8,6 +8,10 @@ body{
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+@font-face{
+    font-family:  'Helv' ;
+    src:url(../../../Fonts/HelveticaNeueCyr-Bold.ttf)
+} 
 .boton{
     font-family: system-ui, -apple-system, BlinkMacSystemFont;
     font-weight:bolder;
