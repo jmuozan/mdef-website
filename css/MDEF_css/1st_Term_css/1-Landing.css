@@ -9,11 +9,15 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 @font-face{
-    font-family:  'Helv' ;
-    src:url(../../../Fonts/HelveticaNeueCyr-Bold.ttf)
+    font-family:  Sora;
+    src:url(../../../Fonts/Sora/static/Sora-Bold.ttf)
+} 
+@font-face{
+    font-family:  Bask;
+    src:url(../../../Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
 } 
 .boton{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Sora;
     font-weight:bolder;
     font-size: 20px;
     text-align:left;
@@ -51,7 +55,7 @@ a:link, a:visited, a:active {
 }
 #titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Sora;
     font-weight:bolder;
     font-size: 100px;
     padding-right: 10px;
@@ -60,7 +64,7 @@ a:link, a:visited, a:active {
 }
 .fechas{
     color: #01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Sora;
     font-weight: 700;
     font-style: italic;
     font-size: 15px;
@@ -68,7 +72,7 @@ a:link, a:visited, a:active {
 }
 .parrafoinicio{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Bask;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -76,7 +80,7 @@ a:link, a:visited, a:active {
     padding-top: 30px;
 }
 .boton2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family: Sora;
     font-weight:bolder;
     font-size: 20px;
     text-align:right;

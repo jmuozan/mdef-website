@@ -8,8 +8,16 @@ body{
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+@font-face{
+    font-family:  Sora;
+    src:url(../../../Fonts/Sora/static/Sora-Bold.ttf)
+} 
+@font-face{
+    font-family:  Bask;
+    src:url(../../../Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+} 
 .boton{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bolder;
     font-size: 20px;
     text-align:left;
@@ -26,7 +34,7 @@ a:link, a:visited, a:active {
 .texto{
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -34,7 +42,7 @@ a:link, a:visited, a:active {
 }
 #titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bolder;
     text-align: right;
     font-size: 100px;
@@ -43,7 +51,7 @@ a:link, a:visited, a:active {
 }
 .fechas{
     color: #01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight: 700;
     text-align: right;
     font-style: italic;
@@ -52,7 +60,7 @@ a:link, a:visited, a:active {
 }
 .subtitulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bolder;
     text-align: left;
     font-size: 20px;
@@ -60,14 +68,14 @@ a:link, a:visited, a:active {
 }
 .subtituloprincipal{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bolder;
     text-align: right;
     font-size: 25px;
     padding-bottom: 20px;
 }
 .boton2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bold;
     font-size: 25px;
     text-align:right;

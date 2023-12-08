@@ -8,8 +8,16 @@ body{
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+@font-face{
+    font-family:  Sora;
+    src:url(../../../Fonts/Sora/static/Sora-Bold.ttf)
+} 
+@font-face{
+    font-family:  Bask;
+    src:url(../../../Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+} 
 .boton{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bolder;
     font-size: 20px;
     text-align:left;
@@ -55,7 +63,7 @@ a:link, a:visited, a:active {
     grid-row: 3/4;
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -66,7 +74,7 @@ a:link, a:visited, a:active {
     grid-row: 7/8;
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -77,7 +85,7 @@ a:link, a:visited, a:active {
     grid-row: 7/8;
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -88,7 +96,7 @@ a:link, a:visited, a:active {
     grid-row: 9/10;
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -99,7 +107,7 @@ a:link, a:visited, a:active {
     grid-row: 5/6;
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 30px;
     padding-right: 10px;
@@ -110,7 +118,7 @@ a:link, a:visited, a:active {
     grid-row: 6/7;
     text-align: justify;
     color:#01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 25px;
     padding-right: 10px;
@@ -122,7 +130,7 @@ a:link, a:visited, a:active {
     grid-row: 6/7;
     text-align: justify;
     color:#01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 25px;
     padding-right: 10px;
@@ -134,7 +142,7 @@ a:link, a:visited, a:active {
     grid-row: 8/9;
     text-align: justify;
     color:#01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 25px;
     padding-right: 10px;
@@ -146,7 +154,7 @@ a:link, a:visited, a:active {
     grid-row: 12/13;
     text-align: justify;
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 30px;
     padding-right: 10px;
@@ -157,7 +165,7 @@ a:link, a:visited, a:active {
     grid-row: 13/14;
     text-align: justify;
     color:#01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 25px;
     padding-right: 10px;
@@ -169,7 +177,7 @@ a:link, a:visited, a:active {
     grid-row: 15/16;
     text-align: justify;
     color:#01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 25px;
     padding-right: 10px;
@@ -181,7 +189,7 @@ a:link, a:visited, a:active {
 }
 #titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bolder;
     font-size: 100px;
     padding-right: 10px;
@@ -190,7 +198,7 @@ a:link, a:visited, a:active {
 }
 .fechas{
     color: #01401C;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight: 700;
     font-style: italic;
     font-size: 15px;
@@ -198,7 +206,7 @@ a:link, a:visited, a:active {
 }
 .parrafoinicio{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:500;
     font-size: 20px;
     padding-right: 10px;
@@ -208,7 +216,7 @@ a:link, a:visited, a:active {
 .boton2{
     grid-column: 2/3;
     grid-row: 14/15;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    font-family:  Sora;
     font-weight:bold;
     font-size: 20px;
     text-align:right;

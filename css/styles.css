@@ -11,7 +11,14 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
-
+@font-face{
+    font-family:  Sora;
+    src:url(../Fonts/Sora/static/Sora-Bold.ttf)
+} 
+@font-face{
+    font-family:  Bask;
+    src:url(../Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+} 
 th, td {
     padding: 80px;
     text-align: center;
@@ -26,11 +33,6 @@ a:-webkit-any-link {
 a:-moz-any-link {
     color:#01401C;
 }
-@font-face{
-    font-family:  'Helv' ;
-    src:url(../Fonts/HelveticaNeueCyr-Bold.ttf
-)
-} 
 li {
     float:left;
     margin-right: 30px;
@@ -41,7 +43,7 @@ ul {
 }
 .titulo{
     color: #04D976;
-    font-family: Helv;
+    font-family: Sora;
     font-weight:bolder;
     font-size: 100px;
     text-align:right;
@@ -50,7 +52,7 @@ ul {
     padding-top: 30px;
 }
 .subtitulo{
-    font-family: Helv;
+    font-family: Sora;
     color:white;
     text-align:right;
     padding-right: 10px;
@@ -59,7 +61,7 @@ ul {
     font-size: 30px;
 }
 .tabla{
-    font-family: 'Sora', sans-serif;
+    font-family: Sora;
     font-size: 14px;
 }
 #redessociales{
@@ -76,7 +78,7 @@ ul {
 }
 .filaapartados{
     padding-top: 20px;
-    font-family: Helv;
+    font-family: Sora;
     font-weight:bolder;
     font-size: 20px;
     color: #01401C;
