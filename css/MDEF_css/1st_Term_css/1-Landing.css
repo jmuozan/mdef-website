@@ -32,7 +32,7 @@ a:link, a:visited, a:active {
     grid-gap: 20px;
 }
 .img1{
-    padding-top: 20px;
+    padding-top: 160px;
     padding-left: 50px;
     grid-column: 1/2;
     grid-row: 2/3;
