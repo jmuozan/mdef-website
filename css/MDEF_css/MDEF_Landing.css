@@ -3,13 +3,13 @@
     padding: 0px;
 }
 @font-face{
-    font-family:  'HelveticaNeue' ;
-    src:url(../../Fonts/HelveticaNeueCyr-Heavy.ttf)
-}
+    font-family:  Sora;
+    src:url(../../../Fonts/Sora/static/Sora-Bold.ttf)
+} 
 @font-face{
-    font-family: "Emoji";
-    src:url(../../Fonts/AppleColorEmoji.ttf)
-}
+    font-family:  Bask;
+    src:url(../../../Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+} 
 body{
     background-color: #012619;
 }
@@ -17,7 +17,7 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 .boton{
-    font-family: HelveticaNeue;
+    font-family: Sora;
     font-weight:bold;
     font-size: 20px;
     text-align:left;
@@ -27,7 +27,7 @@ a:link, a:visited, a:active {
 }
 .titulo{
     color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Sora;
     font-weight:bolder;
     font-size: 100px;
     text-align:right;
@@ -40,8 +40,8 @@ a:link, a:visited, a:active {
     font-family: emoji;
 }
 .parrafoinicio{
-    color: #04D976;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-family: Sora;
     font-weight:500;
     font-size: 20px;
     text-align:right;
