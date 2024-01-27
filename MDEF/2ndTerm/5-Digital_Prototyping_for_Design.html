@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Prototyping for Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@500&family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ea8c7c824.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/MDEF_css/2nd_Term_css/5-Digital_Prototyping_for_Design.css">
+</head>
+<body>
+    <a href="../../index.html"><p class="boton">Go Back Home 👈</p></a>
+    <div class="contenedor">
+        <div class="texto1">
+            <h1 id="titulo">Digital Prototyping for Design 🛠️</h1>
+            <h2 class="fechas">17/01/2024 - 08/03/2024</h2>
+        </div>
+        <div class="texto2">
+            <p class="texto">As part of the program, we’ve been taking the seminar Digital Design for Prototyping. 
+                Based on the program FabAcademy, DPD teaches us how the fablab’s machines work and the different possibilities 
+                they offer to prototype. Also, the seminar takes modules from the fabricademy program to teach us the bases of biomaterials.</p>
+        </div>
+        <div class="texto3">
+            <h2 class="subtituloprincipal">Module 1: 2D Manufacturing</h2>
+            <h2 class="fechas_2">17/01/2024 - 18/01/2024</h2>
+            <h2 class="subtitulo">Laser cutting</h2>
+            <p class="texto">This process uses thermal energy and heat, to separate or cut the parts of a material.
+                A beam of concentrated light called laser is used to raise the temperature of the surface until it melts or vaporizes. 
+                After penetrating the surface of the material, the cutting process begins, guiding the beam across the surface until the desired shape 
+                or piece is obtained. This guiding will be possible thanks to the use of CAM (Computer Aided Manufacturing) Technology, that will control 
+                the machine by using g-code, defining the movement of the machine.</p>
+            <p class="texto">Within this type of process there are three differentiated technologies or procedures that group the different industrial 
+                applications</p>
+            <p class="texto"><span class="lista">- Burning or Reactive Process:</span> during the cutting process, oxygen is used at high pressures as a support gas, so the material 
+                reacts and consequently oxidizes during the process. This reaction produces energy that helps the laser to be more powerful and therefore the cut is deeper. 
+                It is generally used with iron or large thicknesses of sheet metal.</p>
+            <p class="texto"><span class="lista">- Fusion process:</span> in this case nitrogen is used as a carrier gas by means of blowing so that it is more powerful.
+                blowing so that it is easier to remove the material and less energy is used in cutting.
+                in the cutting process. In general this process is used with materials that melt easily or small thicknesses.
+                or small thicknesses.</p>   
+            <p class="texto"><span class="lista">- Sublimation process:</span> by means of a high intensity light beam, the material is directly evaporated or sublimated.
+                evaporates or sublimates directly, so that it can be cut easily. This type of
+                This type of process is used for non-metallic materials.</p>
+            <p class="texto">By means of these three main processes, most of the geometries designed in 2D are obtained to be cut.
+                In addition, the advantages of this type of process are more than evident, the high precision and versatility allow obtaining parts in the most efficient 
+                way possible with the use of the least material, although this depends on the optimization when placing the parts on the board.</p>
+        </div>
+        <div class="img1">
+            <img src="../../IMGS/MDEF/2nd_Term/Digital_Prototyping_for_Design/Module_1/Laser.gif" width="700">
+        </div>
+        <div class="img2">
+            <img src="../../IMGS/MDEF/2nd_Term/Digital_Prototyping_for_Design/Module_1/Mold_Assembly.gif" width="700">
+        </div>
+        <div class="texto4">
+            <h2 class="subtitulo">Intro to Biomaterials</h2>
+            <p class="texto">In the realm of digital fabrication, bioplastics integrate into digital fabrication processes like 3D printing, CNC machining, and laser cutting. 
+                This opens up a world of opportunities for creators, makers and designers like us to bring new designs to life while researching in leaving a lighter footprint on the planet.
+                Unlike conventional plastics, bioplastics can be crafted from renewable sources like corn starch, sugarcane, agar... Making them an eco-friendly alternative with an incredible
+                amount of posibilities.</p>
+        </div>
+        <div class="img3">
+            <img src="../../IMGS/MDEF/2nd_Term/Digital_Prototyping_for_Design/Module_1/Clay.gif" width="600">
+        </div>
+        <div class="texto5">
+            <h2 class="subtitulo">Challenge module 1</h2>
+            <p class="texto">For this first challenge we had to combine the previous knowledge on the basis of bio-materials and the laser cutting machine to create something. 
+                Marius and myself, decided to create a parametric mold with the laser cutting machine and then pour the biomaterial created.
+                To make the parametric mold we used Rhino+Grasshopper. For it’s shape, as we wanted to create a clay biomaterial from the biomaterial cookbook, 
+                we thought using a Moroni pattern will be ideal as dry soil usually get’s shaped following this mathematical operations. With a simple grasshopper script 
+                (that you can find <a href="../../3D_Models/Digital_Prototyping_for_Design/Module_1/Voronoi_Mold.gh" class="link">here👈</a>) we managed to define the different seed, and size of the different cells and also with a pull point function we managed to make the inset 
+                shapes more dynamic by making the distance of the inset vary depending on the closeness to any line created in rhino. For the final result, we created different layers 
+                of the pattern, and created walls and a base for the mold. (You will fond the final file <a href="../../3D_Models/Digital_Prototyping_for_Design/Module_1/Mold_Voronoi.3dm" class="link">here👈</a>)
+                As I said before, our idea for the material was based on clay to follow a narrative for the exercise with the voronoi mold. 
+                Using the open source material cookbook, we based our bioplastic on the Agar Agar + Clay recipe. We decided to use this one because of the plasticizer. 
+                By using a plasticizer like agar agar will help the demolding because the main problem with laser cutting molds is the angles to demold. 
+                As we can only design a 2D shape that will be cutted, we can’t change the z unit shape so it will always be a straight cut. 
+                Also, some of the recipe had to be changed because we only had available wet clay and the recipe was with dry one, as the wet one already had 
+                water in it we had to change the proportions and experiment a bit with the material in order to get to the ideal material consistency.</p>
+        </div>
+        <div class="img4">
+            <img src="../../IMGS/MDEF/2nd_Term" width="600">
+        </div>
+        <div class="img5">
+            <img src="../../IMGS/MDEF/2nd_Term/Digital_Prototyping_for_Design/Module_1/GH_size.gif" width="800">
+        </div>
+        <div class="img6">
+            <img src="../../IMGS/MDEF/2nd_Term/Digital_Prototyping_for_Design/Module_1/GH_lines.gif" width="800">
+        </div>
+        </div>
+    <a href="./6-Making_Sense_and_Meaning.html"><p class="boton2">👉 Next Up: Making Sense and Meaning</p></a>
+</body>
+</html>
