@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffffff;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+@font-face{
+    font-family:  Sora;
+    src:url(../../../Fonts/Sora/static/Sora-Bold.ttf)
+} 
+@font-face{
+    font-family:  Bask;
+    src:url(../../../Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+} 
+.boton{
+    font-family:  Sora;
+    font-weight:bolder;
+    font-size: 20px;
+    text-align:left;
+    color: #04D976;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 420px 3fr;
+    grid-template-rows: 6fr;
+    grid-gap: 20px;
+}
+.texto{
+    text-align: right;
+    color: #04D976;
+    font-family:  Sora;
+    font-weight:500;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+} 
+#titulo{
+    color: #04D976;
+    font-family:  Sora;
+    font-weight:bolder;
+    text-align: right;
+    font-size: 100px;
+    padding-left: 20px;
+}
+.fechas{
+    color: white;
+    font-family:  Sora;
+    font-weight: 700;
+    text-align: left;
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.subtitulo{
+    color: #04D976;
+    font-family:  Sora;
+    font-weight:bolder;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.subtituloprincipal{
+    color: #04D976;
+    font-family:  Sora;
+    font-weight:bolder;
+    text-align: right;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.boton2{
+    font-family:  Sora;
+    font-weight:bold;
+    font-size: 25px;
+    text-align:right;
+    color: #04D976;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.textoprincipal{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.texto1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.texto2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.apartados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;     /* Center items vertically */
+    width: 100%;             /* Ensure the container takes full width */
+}
+.apartados img {
+    height: 250px;           /* Adjust height as needed */
+    margin: 0 10px;          /* Provide some space between images */
+    /* Removed flex: 1 to allow natural image size */
+}
+.image-container {
+    position: relative;
+    display: inline-block; /* or flex, block, etc., depending on your layout */
+  }
+  
+  .hover-text {
+    position: absolute;
+    bottom: 10px;  /* Adjust the position as needed */
+    left: 10px;    /* Adjust the position as needed */
+    font-family:  Sora;
+    font-weight:bolder;
+    color: #04D976;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px;
+    visibility: hidden; /* Hide by default */
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s; /* Smooth transition for the hover effect */
+  }
+  
+  .image-container:hover .hover-text {
+    visibility: visible; /* Show text on hover */
+    opacity: 1;
+  }
+  .image-container:hover{
+    transform: translateY(-10px);
+  }
