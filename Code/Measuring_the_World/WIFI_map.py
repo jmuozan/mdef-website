@@ -14,7 +14,7 @@ for index, row in data.iterrows():
     
     # CSV metadata
     popup_content = f"<h1>{row['Place']}</h1>"
-    popup_content += f"<div id='slideshow'><img src='{row['Image1']}' height='300px'><img src='{row['Image2']}' height='300px'></div>"
+    popup_content += f"<div id='slideshow'><img src='{row['Image1']}' height='200px'><img src='{row['Image2']}' height='200px'></div>"
     popup_content += f"<h3>  Wifi around the area {row['WIFIS']} Opened ones {row['Opened']}. You can visit the site <a href='{row['Map_link']}'>here👈</a></h3>"
     
     color = "red"
