@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Interaction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@500&family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ea8c7c824.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/MDEF_css/3rd_Term_css/1.1-DS03_1st_Intervention.css">
+</head>
+<body>
+    <a href="../../index.html"><p class="boton">Go Back Home 👈</p></a>
+    <div class="contenedor">
+        <div class="texto1">
+            <h1 id="titulo">Design Interaction</h1>
+            <h2 class="fechas">23/04/2024 - 30-04-2024</h2>
+        </div>
+        <div class="texto2">
+            <p class="texto">In my recent project, I set out to capture my body movements using MediaPipe and apply these to a 
+                3D model in Blender. While I haven’t yet succeeded in fully rigging a 3D model with this captured motion, I did 
+                manage to import the motion data and play it back. Here’s a brief overview of the challenges I faced</p>
+        </div>
+        <div class="texto3">
+            <h2 class="subtitulo">The Process</h2>
+            <p class="texto">I used MediaPipe’s Pose and Hands modules to capture my body and hand movements via my webcam. 
+                Using Python, I extracted the captured landmarks and saved them as JSON files. After that, I converted the JSON 
+                files into BVH format to make the motion data compatible with Blender. Finally, I imported the BVH file into Blender, 
+                which allowed me to visualize the captured motion within a 3D environment.
+            </p>
+
+        </div>
+        <div class="img1">
+            <img src="../../IMGS/MDEF/3rd_Term/Digital_Interaction/Video_1.gif" width="600">
+        </div>
+        <div class="texto4">
+            <h2 class="subtitulo">Challenges and Current Status</h2>
+            <p class="texto">Applying the captured motion to a 3D model has been complex due to issues with bone mappings and animation 
+                constraints. Despite these challenges, I managed to import and play back the BVH animation in Blender, 
+                marking it a significant progress.</p>
+        </div>
+        <div class="img2">
+            <img src="../../IMGS/MDEF/3rd_Term/Digital_Interaction/Artisan.gif" width="600">
+
+        </div>
+        <div class="img3">
+            <img src="../../IMGS/MDEF/3rd_Term/Digital_Interaction/Blender.gif" width="900">
+        </div>
+
+        <div class="texto5">
+            <h2 class="subtitulo">Reflection and Future Directions</h2>
+            <p class="texto">This project is part of my larger initiative to use AI to preserve traditional craftsmanship. By analyzing 
+                artisans' movements, I aim to create an educational platform that teaches these skills to new generations. While the 
+                integration of motion capture and 3D animation is still in progress, the ability to capture and visualize motion 
+                is a huge step at the moment.
+        </div>
+
+        </div>
+    <a href="./7-Critical_Transfeminist_Design.html"><p class="boton2">👉 Next Up: Critical Transfeminism</p></a>
+</body>
+</html>
