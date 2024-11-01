@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOCHROMES</title>
+    <link rel="stylesheet" href="./biochromes.css">
+</head>
+<body>
+    <a href="../../index.html" class="home-link">HOME</a>
+    <header>
+        <div class="header-content">
+            <p class="subheader">Exploring Sustainable Color: FABRICADEMY BIOCHROMES class reflection</p>
+            <h1>BIOCHROMES</h1>
+        </div>
+    </header>
+    <main>
+        <img id="main-image" src="./IMGS/5.JPG" alt="Image">
+    </main>
+    <section class="info-section">
+        <div class="info-left">
+            <p><strong>YEAR</strong>2024</p>
+            <p><strong>KIND</strong>GROUP (FABRICADEMY STUDENTS)</p>
+            <p><strong>CATEGORY</strong>BIO</p>
+            <p><strong>FUNCTION</strong>COOKING, CUTTING AND DYEING</p>
+        </div>
+        <div class="info-right">
+            <p>In today's world, sustainability in design and craftsmanship is more important than ever. In the BioChromes class, part of the Fabricademy curriculum, we dived into the world of natural color, learning how to embrace environmentally friendly dyeing practices using organic waste, plants, and microorganisms.</p>
+        </div>
+    </section>
+    <section class="custom-photography-section">
+        <div class="text-content">
+            <h2>What Are BioChromes?</h2>
+            <p>BioChromes refer to the natural pigments found in flora, fauna, and even microorganisms. These natural pigments not only offer vibrant and diverse color options but also introduce sustainable solutions to the often harmful practices of synthetic dyeing. </p>
+            <p>Traditional synthetic dyes have long been linked to the environmental degradation caused by toxic waste and harmful chemicals. However, BioChromes offer an exciting alternative, allowing us to harvest and use natural resources such as plants, insects, fungi, and bacteria for coloring textiles.</p>
+        </div>
+        <div class="image-content">
+            <img src="./IMGS/9.png" alt="Custom Photography">
+        </div>
+    </section>
+    <section class="interactive-gallery">
+        <div class="big-image">
+            <img id="big-image" src="./IMGS/1.png" alt="Big Image">
+        </div>
+        <div class="thumbnail-gallery">
+            <img class="thumbnail selected" src="./IMGS/1.png" alt="Thumb 1" onclick="changeImage(this, './IMGS/1.png')">
+            <img class="thumbnail selected" src="./IMGS/2.png" alt="Thumb 2" onclick="changeImage(this, './IMGS/2.png')">
+            <img class="thumbnail selected" src="./IMGS/3.png" alt="Thumb 3" onclick="changeImage(this, './IMGS/3.png')">
+            <img class="thumbnail selected" src="./IMGS/4.png" alt="Thumb 4" onclick="changeImage(this, './IMGS/4.png')">
+            <img class="thumbnail selected" src="./IMGS/6.JPG" alt="Thumb 5" onclick="changeImage(this, './IMGS/6.JPG')">
+        </div>
+        <div class="text-content">
+            <h2>Hands On Learning: From Organic Waste to Color</h2>
+            <p>One of the most interesting aspects of the BioChromes course was how hands-on and interactive it was. We each collected materials such as leaves, fruit peels, vegetable scraps, and even tea to explore the world of natural dyes. It was fascinating to experiment with adjusting pH levels and temperatures, all while using natural mordants to create a wide array of colors. </p>
+            <p>For example, red cabbage proved to be very versatile, producing  everything from bright purples to soft blues depending on whether it was paired with alum, lemon, or iron.</p>
+            <p>Beyond fabric dyeing, we were also introduced to the making of pigments and inks. Leftover dye baths didn’t go to waste; instead, we transformed them into sustainable pigments. By combining dye residues with alum and baking soda, the leftover materials became unique pigments that could be used for different projects.</p>
+        </div>
+    </section>
+    <section class="new-layout">
+        <img src="./IMGS/7.JPG" alt="New Layout">
+    </section>
+    <section class="text-image-layout">
+        <div class="text-image-layout-content">
+            <img src="./IMGS/8.JPG" alt="LAST">
+        </div>
+        <div class="text-content-right">
+            <h2>Reflections</h2>
+            <p>Even though Global Classes were interesting and nice to listen to, with all the respect for the Fabricademy program it didn't add anything to me or any of my MDEF classmates. As I said it was interesting (even though having it last year would have made it way more interesting) but i feel like I paid money for a course that wasn't useful at all neither academicaly or for my research.</p>
+        </div>
+    </section>
+    <section class="case-layout">
+        <div class="case-header">
+            <h1>RESEARCH & METHODS</h1>
+            <a href="../R&M/r&m.html" class="next-case">NEXT COURSE</a>
+        </div>
+        <div class="case-image-wrapper">
+            <img src="../R&M/IMGS/1.JPG" alt="expo" class="case-image">
+        </div>
+    </section>
+    <div id="hover-image" class="hover-image">
+        <img src="../R&M/IMGS/2.JPG" alt="Small Image">
+    </div>
+    <script>
+        window.addEventListener('load', () => {
+            const image = document.getElementById('main-image');
+            setTimeout(() => {
+                image.style.transform = 'scale(1)';
+            }, 500);
+        });
+
+        function changeImage(element, src) {
+            const bigImage = document.getElementById('big-image');
+            const thumbnails = document.querySelectorAll('.thumbnail');
+
+            thumbnails.forEach(thumbnail => {
+                thumbnail.classList.remove('selected');
+            });
+
+            element.classList.add('selected');
+
+            bigImage.classList.add('fade-out');
+            setTimeout(() => {
+                bigImage.src = src;
+                bigImage.classList.remove('fade-out');
+                bigImage.classList.add('fade-in');
+            }, 300);
+            setTimeout(() => {
+                bigImage.classList.remove('fade-in');
+            }, 600);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const hoverImage = document.getElementById('hover-image');
+            const caseHeader = document.querySelector('.case-header');
+            const caseImageWrapper = document.querySelector('.case-image-wrapper');
+
+            function showHoverImage(e) {
+                hoverImage.style.display = 'block';
+                hoverImage.style.left = `${e.pageX + 15}px`;
+                hoverImage.style.top = `${e.pageY + 15}px`;
+            }
+
+            function hideHoverImage() {
+                hoverImage.style.display = 'none';
+            }
+
+            function moveHoverImage(e) {
+                hoverImage.style.left = `${e.pageX + 15}px`;
+                hoverImage.style.top = `${e.pageY + 15}px`;
+            }
+
+            caseHeader.addEventListener('mouseover', showHoverImage);
+            caseHeader.addEventListener('mousemove', moveHoverImage);
+            caseHeader.addEventListener('mouseout', hideHoverImage);
+
+            caseImageWrapper.addEventListener('mouseover', showHoverImage);
+            caseImageWrapper.addEventListener('mousemove', moveHoverImage);
+            caseImageWrapper.addEventListener('mouseout', hideHoverImage);
+
+            caseHeader.addEventListener('click', () => {
+                window.location.href = './airtisanship.html';
+            });
+
+            caseImageWrapper.addEventListener('click', () => {
+                window.location.href = './airtisanship.html';
+            });
+        });
+    </script>
+</body>
+</html>
