@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const imageSources = [
     "./BIOCHROMES/IMGS/1.png",
-    "",
+    "./R&M/IMGS/1.JPG",
     "",
     "./ROBOTS/ROBOT_PRINTING.gif",
     "",
