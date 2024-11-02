@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THESIS PROJECT</title>
+    <link rel="stylesheet" href="./thesis_project.css">
+</head>
+<body>
+    <a href="../../index.html" class="home-link">HOME</a> 
+    <header>
+        <div class="header-content">
+            <p class="subheader">My Project</p>
+            <h1>THESIS PORJECT</h1>
+        </div>
+    </header>
+    <main>
+        <img id="main-image" src="." alt="Image">
+    </main>
+    <section class="info-section">
+        <div class="info-left">
+            <p><strong>YEAR</strong>2024</p>
+            <p><strong>KIND</strong>INDIVIDUAL</p>
+            <p><strong>CATEGORY</strong>MDEF</p>
+            <p><strong>FUNCTION</strong>DESIGN, RESEARCH</p>
+        </div>
+        <div class="info-right">
+            <p></p>
+        </div>
+    </section>
+    <section class="custom-photography-section">
+        <div class="text-content">
+            <h2>OCT</h2>
+            <p></p>
+        </div>
+        <div class="image-content">
+            <img src="./IMG/DESIGN_SPACE.png" alt="Custom Photography">
+        </div>
+    </section>
+    <section class="interactive-gallery">
+        <div class="big-image">
+            <img id="big-image" src="." alt="Big Image">
+        </div>
+        <div class="text-content">
+            <h2>NOV</h2>
+            <p></p>
+        </div>
+    </section>
+    <section class="video-section">
+    </section>    
+    
+    <section class="text-image-layout">
+        <div class="text-image-layout-content">
+            <img src="." alt="LAST">
+        </div>
+        <div class="text-content-right">
+            <h2>DEC</h2>
+            <p></p>
+        </div>
+    </section>
+    <section class="custom-photography-section">
+        <div class="text-content">
+            <h2>CONCLUSIONS</h2>
+            <p></p>
+        </div>
+        <div class="image-content">
+            <img src="." alt="Custom Photography">
+        </div>
+    </section>
+    <section class="case-layout">
+        <div class="case-header">
+            <h1>BIO ADDITIVE ROBOTIC MANUFACTURING</h1>
+            <a href="https://jmuozan.github.io/jorgemunyozz.github.io/HTML/works/non-planar.html" class="next-case">NEXT COURSE</a>
+        </div>
+        <div class="case-image-wrapper">
+            <img src="../ROBOTS/20241025_121213.jpg" alt="expo" class="case-image">
+        </div>
+    </section>
+    <div id="hover-image" class="hover-image">
+        <img src="../ROBOTS/ROBOT_PRINTING.gif" alt="Small Image">
+    </div>
+    <script>
+        window.addEventListener('load', () => {
+            const image = document.getElementById('main-image');
+            setTimeout(() => {
+                image.style.transform = 'scale(1)'; // Reduce to normal size
+            }, 500); // Delay for the effect
+        });
+
+        function changeImage(element, src) {
+            const bigImage = document.getElementById('big-image');
+            const thumbnails = document.querySelectorAll('.thumbnail');
+
+            // Remove the selected class from all thumbnails
+            thumbnails.forEach(thumbnail => {
+                thumbnail.classList.remove('selected');
+            });
+
+            // Add the selected class to the clicked thumbnail
+            element.classList.add('selected');
+
+            bigImage.classList.add('fade-out');
+            setTimeout(() => {
+                bigImage.src = src;
+                bigImage.classList.remove('fade-out');
+                bigImage.classList.add('fade-in');
+            }, 300);
+            setTimeout(() => {
+                bigImage.classList.remove('fade-in');
+            }, 600);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const hoverImage = document.getElementById('hover-image');
+            const caseHeader = document.querySelector('.case-header');
+            const caseImageWrapper = document.querySelector('.case-image-wrapper');
+
+            function showHoverImage(e) {
+                hoverImage.style.display = 'block';
+                hoverImage.style.left = `${e.pageX + 15}px`;
+                hoverImage.style.top = `${e.pageY + 15}px`;
+            }
+
+            function hideHoverImage() {
+                hoverImage.style.display = 'none';
+            }
+
+            function moveHoverImage(e) {
+                hoverImage.style.left = `${e.pageX + 15}px`;
+                hoverImage.style.top = `${e.pageY + 15}px`;
+            }
+
+            caseHeader.addEventListener('mouseover', showHoverImage);
+            caseHeader.addEventListener('mousemove', moveHoverImage);
+            caseHeader.addEventListener('mouseout', hideHoverImage);
+
+            caseImageWrapper.addEventListener('mouseover', showHoverImage);
+            caseImageWrapper.addEventListener('mousemove', moveHoverImage);
+            caseImageWrapper.addEventListener('mouseout', hideHoverImage);
+
+            caseHeader.addEventListener('click', () => {
+                window.location.href = 'https://jmuozan.github.io/jorgemunyozz.github.io/HTML/works/non-planar.html';
+            });
+
+            caseImageWrapper.addEventListener('click', () => {
+                window.location.href = 'https://jmuozan.github.io/jorgemunyozz.github.io/HTML/works/non-planar.html';
+            });
+        });
+    </script>
+</body>
+</html>
