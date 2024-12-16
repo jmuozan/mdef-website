@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const imageSources = [
     "./BIOCHROMES/IMGS/1.png",
     "./R&M/IMGS/1.JPG",
-    "",
+    "./THESIS_PROJECT/IMG/0.jpg",
     "./ROBOTS/ROBOT_PRINTING.gif",
     "",
     "./EMERGING ECONOMIES/IMG/0.jpg",
-    "",
+    "./OS_HARDWARE/IMG/CIRCUIT.jpg",
     "",
   ];
 
