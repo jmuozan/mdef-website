@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "./R&M/IMGS/1.JPG",
     "./THESIS_PROJECT/IMG/0.jpg",
     "./ROBOTS/ROBOT_PRINTING.gif",
-    "",
+    "MDEF02/LLUM25/Timelapse1.2.gif",
     "./EMERGING ECONOMIES/IMG/0.jpg",
     "./OS_HARDWARE/IMG/CIRCUIT.jpg",
     "",
