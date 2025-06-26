@@ -34,7 +34,7 @@
         }
         
         .content-section img {
-            max-width: 100%;
+            max-width: 60%;
             height: auto;
             margin: 1em 0;
         }
@@ -116,12 +116,12 @@
     <a href="../../index.html" class="home-link">HOME</a>
     <header>
         <div class="header-content">
-            <p class="subheader">LEGO PIECE MOLD</p>
+            <p class="subheader">PCB PRODUCTION</p>
             <h1>MOLDING & CASTING WEEK</h1>
         </div>
     </header>
     <main>
-        <img id="main-image" src="./IMG/IMG_4708.JPG" alt="Weaving Loom Main Image">
+        <img id="main-image" src="./IMGS/IMG_4583.JPG" alt="Weaving Loom Main Image">
     </main>
 
     <!-- Info Section -->
@@ -140,9 +140,11 @@
     <!-- Research & Ideation -->
     <section class="content-section">
         <h2>IDEATION</h2>
-        <p>As I did not took part in the previous week of electronics design during this week I went through <a href="https://gitlab.fabcloud.org/pub/programmers/quentorres" target="_blank">Adrián Torres' Quentorres. swd+uart adapter+hello board - xiao rp2040 repo</a> using his pcb design for the xiao. Even in this scenario, first thing we did during the global classroom and the local one next day was revisit the design part to make sire production samples were ready.</p>
+        <p>As I did not took part in the previous week of electronics design during this week I went through <a href="https://gitlab.fabcloud.org/pub/programmers/quentorres" target="_blank">Adrián Torres' Quentorres. swd+uart adapter+hello board - xiao rp2040 repo</a> using his pcb design for the xiao. Even in this scenario, first thing we did during the global classroom and the local one next day was revisit the design part to make sire production samples were ready. The files of the designed board where a set of pngs represernting the different layers that make the pcb itself. Outide shape, holes and paths.</p>
         <div class="image-container">
-            <img src="./IMG/1.png" alt="Historical Loom">
+            <img src="./IMGS/ELECTRONICS_PRODUCTION/board_layers/QTholes.png" alt="Historical Loom">
+            <img src="./IMGS/ELECTRONICS_PRODUCTION/board_layers/QToutline.png">
+            <img src="./IMGS/ELECTRONICS_PRODUCTION/board_layers/QTtraces.png">
         </div>
         
     </section>
@@ -150,69 +152,55 @@
 
     <section class="content-section">
         <h2>PCB FILES</h2>
-        <p></p>
+        <p>With the pngs, and in order to produce them in the roland, we went through 'mods project' a web production platform made by Neil Gershenfeld and Nadya Peek (<a href="https://cba.mit.edu/docs/papers/18.10.mods.pdf" target="_blank">Amazing paper</a>) in order to create a gcode the machine can understand. For this we made a specific gcode for each png changing depth values tools and passes.</p>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-05-20 a les 17.15.15.png" alt="Historical Loom">
+            <img src="./IMGS/ELECTRONICS_PRODUCTION/mods_settings/1st_layer.png">
         </div>
         <p></p>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-05-20 a les 17.15.37.png" alt="Historical Loom">
+            <img src="./IMGS/ELECTRONICS_PRODUCTION/mods_settings/holes.png">
         </div>
         <div class="image-container">
-            <img src="./IMG/REFERENCES.jpg" alt="Historical Loom">
+            <img src="./IMGS/ELECTRONICS_PRODUCTION/mods_settings/outlines.png">
         </div>
     </section>
         <!-- Tools Section -->
     <section class="content-section">
         <h2>PCB CUTTING</h2>
+        <p>With the gcode produced through Mods, it was time to produce the piece. For it we used the Roland SRM-20. *Important!! to set the 0 carefully to not break the tools and stick the pcb with the strong double sided tape to the bed as it can fly :)</p>
         <p></p>
         <div class="image-container">
-            <img src="./IMG/IMG_4683.JPG" alt="Historical Loom">
+            <img src="./IMGS/IMG_4576.JPG">
         </div>
         <p></p>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-04-25 172822.png" alt="Historical Loom">
+            <img src="./IMGS/IMG_4577.JPG">
         </div>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-04-25 174045.png" alt="Historical Loom">
+            <img src="./IMGS/IMG_4578.JPG">
         </div>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-04-25 174132.png" alt="Historical Loom">
+            <img src="./IMGS/IMG_4579.JPG">
         </div>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-04-25 174736.png" alt="Historical Loom">
+            <img src="./IMGS/IMG_4580.JPG">
         </div>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-04-25 174901.png" alt="Historical Loom">
+            <img src="./IMGS/IMG_4581.JPG">
         </div>
         <div class="image-container">
-            <img src="./IMG/Captura de pantalla 2025-04-25 175723.png" alt="Historical Loom">
+            <img src="./IMGS/IMG_4582.JPG">
         </div>
         <div class="image-container">
-            <img src="./IMG/IMG_4669.JPG" alt="Historical Loom">
-        </div>
-        <div class="image-container">
-            <img src="./IMG/IMG_4671.JPG" alt="Historical Loom">
-        </div>
-        <div class="image-container">
-            <img src="./IMG/IMG_4674.JPG" alt="Historical Loom">
+            <img src="./IMGS/IMG_4583.JPG">
         </div>
     </section>
     <!-- Tools Section -->
     <section class="content-section">
         <h2>TESTING</h2>
-        <p></p>
+        <p>After soldering the components to the board and loading the <a href="https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json" target="_blank">Arduino pico</a> into the set of arduino IDE boards it was time to test by throwing a test blink script.</p>
         <div class="image-container">
-            <img src="./IMG/IMG_4700.JPG" alt="Historical Loom">
-        </div>
-        <div class="image-container">
-            <img src="./IMG/IMG_4701.JPG" alt="Historical Loom">
-        </div>
-        <div class="image-container">
-            <img src="./IMG/IMG_4703.JPG" alt="Historical Loom">
-        </div>
-        <div class="image-container">
-            <img src="./IMG/IMG_4707.JPG" alt="Historical Loom">
+            <img src="./IMG/IMG_4700.JPG">
         </div>
     </section>
 
